@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Laconic</title>
+	<link rel="shortcut icon" href="images/shortcut.png">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/blogistyle.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<header>
+		<div class="header-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-xs-12">
+						<ul class="contacts-top">
+							<li><i class="fas fa-phone"></i>
+								(961) 348-2626
+							</li>
+							<li><i class="fas fa-envelope"></i>	
+								laconic@mail.com
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-6 col-xs-12">
+						<ul class="social-top">
+							<li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fab fa-github"></i></a></li>
+							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
+				</div>
+				<div class="dropdown active">
+  					<button class="dropbtn">Home</button>
+  					<span class="icoon"><i class="fas fa-angle-down"></i></span>
+				  	<div class="dropdown-content">
+				  	<a href="index.html">Home 1</a>
+				  	<a href="#">Home 2</a>
+				  	</div>
+				</div>
+				<div class="dropdown">
+  					<button class="dropbtn">Pages</button>
+  					<span class="icoon"><i class="fas fa-angle-down"></i></span>
+				  	<div class="dropdown-content">
+				  	<a href="about-us.html">About Us</a>
+				  	<a href="#">About Us 2</a>
+				  	<a href="#">Services</a>
+				  	<a href="#">Contact</a>
+				  	</div>
+				</div>
+				<div class="dropdown">
+  					<button class="dropbtn">Portfolio</button>
+  					<span class="icoon"><i class="fas fa-angle-down"></i></span>
+				  	<div class="dropdown-content">
+				  	<a href="#">Portfolio 2 Col</a>
+				  	<a href="portfolio-3.html">Portfolio 3 Col</a>
+				  	<a href="#">Portfolio 4 Col</a>
+				  	<a href="portfolio-inner.html">Portfolio Inner</a>
+				  	</div>
+				</div>
+				<div class="dropdown">
+  					<button class="dropbtn active">Blog</button>
+  					<span class="icoon"><i class="fas fa-angle-down"></i></span>
+				  	<div class="dropdown-content">
+				  	<a href="blog-3-col.html">Blog 3 Col</a>
+				  	<a href="#">Blog 2 Col</a>
+				  	<a href="blog-inner.html">Blog Inner</a>
+				  	</div>
+				</div>
+				<div class="dropdown">
+  					<button class="dropbtn"><a href="shortcodes.html">Shortcodes</a></button>
+				  	<div class="dropdown-content">
+				  	
+				  	</div>
+				</div><div class="dropdown">
+  					<button class="dropbtn"><a href="https://themeforest.net/item/laconic-businesscorporate-html5-template/17467607">Buy</a></button>
+				</div>
+				<ul class="menu">
+				<li onclick="search()" style="border-left: 1px solid #eaeaea;"><a href="#"><i class="fas fa-search"></i></a></li>
+				<li class="lastt" id="last" onclick="times()"><a href="#"><i class="fas fa-times"></i></a></li>
+				</ul>
+				<button class="burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+				<input type="search" class="press" name="" placeholder="Type And Press Enter">
+			</div>
+			<div class="add" id="add">
+				<form>
+					<input type="text" name="" placeholder="Search">
+				</form>
+			</div>
+		</nav>
+	</header>
+	<div class="breadcrumbs-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="breadcrumbs-sec-title">
+						Blog Inner						
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="breadcrumbs-sec-crumbs">
+						<a href="#">Home</a>
+						<span>Blog Inner</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container blog-sidebar-section">
+		<div class="row">
+			<div class="col-md-9">
+				<div class="blog-cover">
+					<img src="images/b-i.jpg" alt="">
+					<div class="blog-cover-desc">
+						<a href="#" class="blog-cover-cat">business</a> 
+						<a href="#" class="blog-cover-cat">corporate</a>
+						<div class="blog-cover-title">Laconic − Perfect Choice For Your Next Project</div>
+						<div class="blog-cover-bottom">
+							<span class="blog-cover-date"><i class="far fa-calendar-alt"></i> May 21, 2016</span>
+							<span class="blog-cover-author"><i class="fas fa-user"></i> Admin</span>
+							<span class="blog-cover-views"><i class="fas fa-eye"></i> 256</span>
+							<span class="blog-cover-comments"><i class="fas fa-comment"> 12</i>
+						</div>
+					</div>
+				</div>
+				<div class="blog-inner-text">
+					<p class="lead">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quam culpa, debitis at quia aperiam maxime.Culpa laudantium, iste nulla tempora! Eos, rem nostrum reprehenderit!
+					</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, ut. Officia molestias quis voluptatibus architecto a harum aut vel tenetur eveniet unde dolor repudiandae voluptas reprehenderit sed quaerat quasi ut provident necessitatibus nemo debitis consectetur dolore corrupti similique, impedit nobis. Tempore eaque repellendus neque hic illum ipsum veritatis qui nam! Saepe laudantium excepturi illo unde consectetur exercitationem placeat qui iure dignissimos aperiam. Expedita, aspernatur. Repellendus voluptas accusantium deleniti eum officiis itaque, aliquam aut tempora quos quasi molestiae cumque possimus laudantium dolor, placeat vel aspernatur voluptatem. Blanditiis quos, possimus nulla doloremque, repellat vitae suscipit aspernatur iure totam officiis consequuntur cum rerum.</p>
+					<blockquote>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab perferendis excepturi accusamus illo? Minus, a. Autem corporis placeat, ex nesciunt velit omnis! Necessitatibus amet, ipsa.</p>
+						<small>Somebody in <cite title="Source Title">Source Title</cite></small>
+					</blockquote>
+					<div class="separator">
+						<div class="separator-line"></div>
+						<div class="separator-inner">
+							<span>part 2</span>
+							Text Separator
+						</div>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, doloribus sint laborum. A esse nulla distinctio qui perferendis dolor optio recusandae, perspiciatis consequatur est nemo, nobis quasi aliquam ex delectus nostrum iusto ratione, asperiores sint!</p>
+					<div class="row">
+						<div class="col-md-4">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum labore eaque harum modi ratione! Error quasi molestias molestiae accusamus provident sint debitis fugit delectus nam, soluta eaque voluptatibus doloremque magnam.</p>
+						</div>
+						<div class="col-md-4">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum labore eaque harum modi ratione! Error quasi molestias molestiae accusamus provident sint debitis fugit delectus nam, soluta eaque voluptatibus doloremque magnam.</p>
+						</div>
+						<div class="col-md-4">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum labore eaque harum modi ratione! Error quasi molestias molestiae accusamus provident sint debitis fugit delectus nam, soluta eaque voluptatibus doloremque magnam.</p>
+						</div>
+					</div>
+					<div id="demo" class="carousel slide" data-ride="carousel">
+				 <!--  <ul class="carousel-indicators">
+				    <li data-target="#demo" data-slide-to="0" class="active"></li>
+				    <li data-target="#demo" data-slide-to="1"></li>
+				    <li data-target="#demo" data-slide-to="2"></li>
+				  </ul> -->
+				 
+				<div class="carousel-inner">
+				    <div class="carousel-item active">
+				 	  <a class="popup-link" >
+				      <img src="images/b-1.jpg"  style="margin-top: 0px; padding: 20px 0; width: 100%"></a>
+				    </div>
+				    <div class="carousel-item">
+				 	  <a class="popup-link" >
+				      <img src="images/b-2.jpg"  style="margin-top: 0px; padding: 20px 0; width: 100%" ></a>
+				    </div>
+				    <div class="carousel-item">
+				 	  <a class="popup-link" >
+				      <img src="images/b-3.jpg"  style="margin-top: 0px; padding: 20px 0; width: 100%" ></a>
+				</div>
+
+					</div>
+
+				  
+				<a class="carousel-control-prev" href="#demo" data-slide="prev">
+				    <span  ><i class="fas fa-caret-left" style="opacity: .4;  font-size: 32px;
+				    color: #fff;  position: absolute; left: 20px;"></i></span>
+				</a>
+				<a class="carousel-control-next" href="#demo" data-slide="next">
+				    <span  ><i class="fas fa-caret-right" style="opacity: .4; font-size: 32px;
+				    color: #fff;  position: absolute; right: 20px;"></i></span>
+				</a>
+				</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus iusto magnam molestias totam sint minus veniam, dolor porro. Cum ut facere id sed earum iure asperiores, veniam nostrum consequuntur. At!</p>
+				</div>
+				<div class="blog-tags-social">
+					<div class="row">
+						<div class="col-xs-6 blog-tags ion-ios-pricetag-outline">
+							<i class="fas fa-tags"></i>
+							<a href="#">business</a>
+							<a href="#">design</a>
+							<a href="#">corporate</a>
+							<a href="#">seo</a>
+						</div>
+						<div class="col-xs-6 blog-social">
+							<div class="share">
+								<i class="fas fa-share-alt"></i>  <span class="share-value">32</span>
+								<div class="share-hidden">
+									<a href="#" class="ion-social-facebook"><i class="fab fa-facebook-f"></i></a>
+									<a href="#" class="ion-social-tumblr"><i class="fab fa-tumblr"></i></a>
+									<a href="#" class="ion-social-googleplus"><i class="fab fa-google-plus-g"></i></a>
+									<a href="#" class="ion-social-twitter"><i class="fab fa-twitter"></i></a>
+								</div>
+							</div>
+							<div class="like">
+								<i class="far fa-heart"></i> <span class="like-value">52</span>
+							</div>							
+						</div>
+					</div>
+				</div>
+				<div class="blog-nearby-proj">
+					<div class="row">
+						<div class="col-xs-6 prev-proj">
+							<a href="#">
+								<span>Previous</span>
+								<br>
+								Why Laconic?<br>	
+								<i class="fas fa-angle-left"></i>							
+							</a>
+						</div>
+						<div class="col-xs-6 next-proj">
+							<a href="#">
+								<span>Next</span>
+								<br>
+								Our Features<br>
+								<i class="fas fa-angle-right"></i>							
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="blog-other-proj">
+					<div class="section-title-left">Related Projects <span class="section-subtitle">It`s Can Be Useful</span></div>
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="blog-item">
+								<a class="blog-img-wrap" href="blog-inner.html">
+									<img src="images/b-1.jpg" alt="">
+									<span class="blog-img-overlay">
+									<span class="link"><i class="fas fa-link"></i></span>
+									</span>
+								</a>
+								<div class="blog-description">
+									<a class="blog-title">How to Expand Business</a>									
+									<div class="blog-bottom">
+										<span class="blog-item-date ion-android-calendar"><i class="far fa-calendar-alt"></i> May 21, 2016 / </span>
+										<span class="blog-item-author ion-android-person"><i class="fas fa-user"></i> Admin</span>
+										<span class="blog-item-views ion-eye"><i class="far fa-eye"></i> 256</span>
+									</div>									
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="blog-item">
+								<a class="blog-img-wrap" href="blog-inner.html">
+									<img src="images/b-2.jpg" alt="">
+									<span class="blog-img-overlay">
+									<span class="link"><i class="fas fa-link"></i></span>
+									</span>
+								</a>
+								<div class="blog-description">
+									<a class="blog-title">How to Expand Business</a>									
+									<div class="blog-bottom">
+										<span class="blog-item-date ion-android-calendar"><i class="far fa-calendar-alt"></i> May 21, 2016 / </span>
+										<span class="blog-item-author ion-android-person"><i class="fas fa-user"></i> Admin</span>
+										<span class="blog-item-views ion-eye"><i class="far fa-eye"></i> 256</span>
+									</div>									
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="blog-item">
+								<a class="blog-img-wrap" href="blog-inner.html">
+									<img src="images/b-3.jpg" alt="">
+									<span class="blog-img-overlay">
+									<span class="link"><i class="fas fa-link"></i></span>
+									</span>
+								</a>
+								<div class="blog-description">
+									<a class="blog-title">How to Expand Business</a>									
+									<div class="blog-bottom">
+										<span class="blog-item-date ion-android-calendar"><i class="far fa-calendar-alt"></i> May 21, 2016 / </span>
+										<span class="blog-item-author ion-android-person"><i class="fas fa-user"></i> Admin</span>
+										<span class="blog-item-views ion-eye"><i class="far fa-eye"></i> 256</span>
+									</div>									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="comments">
+					<div class="section-title-left"><span>4 </span>Comments <a href="#comment-form">Leave New</a></div>
+					<div class="comment">
+						<img src="images/ts-4.jpg" alt="">
+						<div class="comment-name-date">
+							<span class="comment-name">Admin</span><span class="comment-date">May 21, 2016</span>
+						</div>
+						<div class="comment-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam eius nobis obcaecati nulla ad error laudantium nisi eligendi. Eos officia soluta vitae quibusdam iure dignissimos dicta cupiditate quidem consequatur debitis.							
+						</div>
+						<a href="#" class="reply-link">Reply</a>
+						<div class="comment-reply">
+							<div class="comment">
+								<img src="images/ts-1.jpg" alt="">
+								<div class="comment-name-date">
+									<span class="comment-name">Admin</span><span class="comment-date">May 21, 2016</span>
+								</div>
+								<div class="comment-text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet officia tempore animi placeat recusandae temporibus sint cum repellat fugiat laboriosam.						
+								</div>
+								<a href="#" class="reply-link">Reply</a>
+								<div class="comment-reply">
+									
+								</div>
+							</div>
+							<div class="comment">
+								<img src="images/ts-4.jpg" alt="">
+								<div class="comment-name-date">
+									<span class="comment-name">Admin</span><span class="comment-date">May 21, 2016</span>
+								</div>
+								<div class="comment-text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet officia tempore animi placeat recusandae temporibus sint cum repellat fugiat laboriosam.						
+								</div>
+								<a href="#" class="reply-link">Reply</a>
+								<div class="comment-reply">
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="comment">
+						<img src="images/ts-1.jpg" alt="">
+						<div class="comment-name-date">
+							<span class="comment-name">Admin</span><span class="comment-date">May 21, 2016</span>
+						</div>
+						<div class="comment-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet officia tempore animi placeat recusandae temporibus sint cum repellat fugiat laboriosam.						
+						</div>
+						<a href="#" class="reply-link">Reply</a>
+						<div class="comment-reply">
+							
+						</div>
+					</div>
+					<div class="comment">
+						<img src="images/ts-3.jpg" alt="">
+						<div class="comment-name-date">
+							<span class="comment-name">Admin</span><span class="comment-date">May 21, 2016</span>
+						</div>
+						<div class="comment-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet officia tempore animi placeat recusandae temporibus sint cum repellat fugiat laboriosam.						
+						</div>
+						<a href="#" class="reply-link">Reply</a>
+						<div class="comment-reply">
+							
+						</div>
+					</div>
+					<div class="comment-form" id="comment-form">
+						<form>
+							<div class="row">
+								<div class="col-md-6"><input name="name" placeholder="Name" type="text"></div>
+								<div class="col-md-6"><input name="email" placeholder="Email" type="text"></div>
+							</div>
+							<textarea name="message" placeholder="Comment" rows="10"></textarea>
+							<button type="button" class="btn btn-light" style="background-color: #fff; border-color: #eaeaea;"><a href="http://a96194w5.bget.ru/blog-inner.html?name=&email=&message=">Send Message</a></button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="sidebar">
+					<div class="sidebar-search">
+						<div class="sidebar-title">Search</div>
+						<form>
+							<input placeholder="Type here" type="text">
+						</form>
+					</div>
+					<div class="sidebar-category">
+						<div class="sidebar-title">Category</div>
+						<ul>
+							<li class="ion-ios-arrow-right">
+								<i class="fas fa-chevron-right"></i>
+								<a href="#">App Development</a>
+							</li>
+							<li class="ion-ios-arrow-right">
+								<i class="fas fa-chevron-right"></i>
+								<a href="#">Web Design</a>
+							</li>
+							<li class="ion-ios-arrow-right">
+								<i class="fas fa-chevron-right"></i>
+								<a href="#">SEO Optimization</a>
+							</li>
+							<li class="ion-ios-arrow-right">
+								<i class="fas fa-chevron-right"></i>
+								<a href="#">Business</a>
+							</li>
+							<li class="ion-ios-arrow-right">
+								<i class="fas fa-chevron-right"></i>
+								<a href="#">Photography</a>
+							</li>
+						</ul>
+					</div>
+					<div class="sidebar-text">
+						<div class="sidebar-title">Text Widget</div>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, quibusdam. Ad molestias maxime provident natus nihil nesciunt eos aut atque.
+					</div>
+					<div class="sidebar-tags">
+						<div class="sidebar-title">Tag Cloud</div>
+						<a href="#">SEO</a>
+						<a href="#">Wordpress</a>
+						<a href="#">HTML5</a>
+						<a href="#">CSS3</a>
+						<a href="#">Design</a>
+						<a href="#">App</a>
+						<a href="#">Web</a>
+						<a href="#">Laconic</a>
+						<a href="#">Fast</a>
+						<a href="#">Powerfull</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<a href="index.html">
+						<img class="footer-logo" src="images/logo-gray.png" alt="">
+					</a>
+					<ul class="footer-contacts">
+						<li><i class="fas fa-map-marker-alt"></i> Adress: 142 Central, San Francisco</li>
+						<li><i class="fas fa-mobile-alt"></i> Phone: +38 (023) 287 - 52 - 31</li>
+						<li><i class="fas fa-envelope"></i> E-mail: support@email.com</li>
+						<li><i class="fas fa-desktop"></i> Site: themeforest.net/user/gryndii</li>
+						<li><i class="far fa-clock"></i> Open: from 8 am to 6 pm</li>
+					</ul>
+					<ul class="footer-social">
+						<li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fab fa-github"></i></a></li>
+						<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-sm-4">
+					<div class="footer-title">Recent tweets</div>
+					<ul class="footer-twitter">
+						<li class="footer-tweet ion-social-twitter-outline"><i class="fab fa-twitter"></i>
+							<a href="#">@laconic</a>
+							Lorem ipsum dolor sit amet, consectetur adipisicing.
+							<a href="#" class="tweet-link">https://twitter.com/tweet</a>
+							<div class="tweet-time">3 days ago</div>
+						</li>
+						<li class="footer-tweet ion-social-twitter-outline"><i class="fab fa-twitter"></i>
+							<a href="#">@laconic</a>
+							Lorem ipsum dolor sit amet, consectetur adipisicing.
+							<a href="#" class="tweet-link">https://twitter.com/tweet</a>
+							<div class="tweet-time">4 days ago</div>
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-4">
+					<div class="footer-flickr">
+						<div class="footer-title">Flickr Photos</div>
+						<style type="text/css"> 
+						.flickr_badge_image {margin:0px;display:inline;}
+						.flickr_badge_image img {border: 0px solid #666666 !important; padding:1px; margin:6px;}
+						#flickr_badge_wrapper {width:100%;text-align:left}
+						</style><div id="flickr_badge_wrapper"><script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=8&display=latest&size=s&layout=x&source=user&user=52617155@N08"></script></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<div>
+							Copyright © 2016 <a href="#">Laconic</a>. Created by <a href="http://themeforest.net/user/gryndii">Gryndii</a>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<ul class="footer-menu">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about-us.html">About Us</a></li>
+							<li><a href="portfolio-3.html">Portfolio</a></li>
+							<li><a href="blog-3-col.html">Blog</a></li>
+							<li><a href="https://themeforest.net/user/gryndii">Buy</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript">
+	
+
+	function search() {
+	var input = document.querySelector(".press");
+	var times = document.querySelector("#last");
+	input.style.display = "block";
+	times.style.display = "block";
+	times.style.zIndex = "2";
+}
+
+	function times() {
+	var input = document.querySelector(".press");
+	var times = document.querySelector("#last");
+	input.style.display = "none";
+	times.style.display = "none";
+}
+
+</script>
+
+</body>
+</html>

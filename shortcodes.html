@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Laconic</title>
+	<link rel="shortcut icon" href="images/shortcut.png">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/shortstyle.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<header>
+		<div class="header-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-xs-12">
+						<ul class="contacts-top">
+							<li><i class="fas fa-phone"></i>
+								(961) 348-2626
+							</li>
+							<li><i class="fas fa-envelope"></i>	
+								laconic@mail.com
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-6 col-xs-12">
+						<ul class="social-top">
+							<li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fab fa-github"></i></a></li>
+							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
+				</div>
+				<div class="dropdown ">
+  					<button class="dropbtn ">Home</button>
+  					<span class="icoon"><i class="fas fa-angle-down"></i></span>
+				  	<div class="dropdown-content">
+				  	<a href="index.html">Home 1</a>
+				  	<a href="#">Home 2</a>
+				  	</div>
+				</div>
+				<div class="dropdown">
+  					<button class="dropbtn">Pages</button>
+  					<span class="icoon"><i class="fas fa-angle-down"></i></span>
+				  	<div class="dropdown-content">
+				  	<a href="about-us.html">About Us</a>
+				  	<a href="#">About Us 2</a>
+				  	<a href="#">Services</a>
+				  	<a href="#">Contact</a>
+				  	</div>
+				</div>
+				<div class="dropdown">
+  					<button class="dropbtn">Portfolio</button>
+  					<span class="icoon"><i class="fas fa-angle-down"></i></span>
+				  	<div class="dropdown-content">
+				  	<a href="#">Portfolio 2 Col</a>
+				  	<a href="portfolio-3.html">Portfolio 3 Col</a>
+				  	<a href="#">Portfolio 4 Col</a>
+				  	<a href="portfolio-inner.html">Portfolio Inner</a>
+				  	</div>
+				</div>
+				<div class="dropdown">
+  					<button class="dropbtn">Blog</button>
+  					<span class="icoon"><i class="fas fa-angle-down"></i></span>
+				  	<div class="dropdown-content">
+				  	<a href="blog-3-col.html">Blog 3 Col</a>
+				  	<a href="#">Blog 2 Col</a>
+				  	<a href="blog-inner.html">Blog Inner</a>
+				  	</div>
+				</div>
+				<div class="dropdown active">
+  					<button class="dropbtn active"><a href="shortcodes.html">Shortcodes</a></button>
+				  	<div class="dropdown-content">
+				  	
+				  	</div>
+				</div><div class="dropdown">
+  					<button class="dropbtn"><a href="https://themeforest.net/item/laconic-businesscorporate-html5-template/17467607">Buy</a></button>
+				</div>
+				<ul class="menu">
+				<li onclick="search()" style="border-left: 1px solid #eaeaea;"><a href="#"><i class="fas fa-search"></i></a></li>
+				<li class="lastt" id="last" onclick="times()"><a href="#"><i class="fas fa-times"></i></a></li></ul>
+				<button class="burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+				<input type="search" class="press" name="" placeholder="Type And Press Enter">
+			</div>
+			<div class="add" id="add">
+				<form>
+					<input type="text" name="" placeholder="Search">
+				</form>			
+			</div>
+		</nav>
+	</header>
+	<div class="breadcrumbs-section" style="height: 85px; background-image: url(images/pattern-2.png); background-repeat: repeat;
+	line-height: 85px; background-attachment: fixed;">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="breadcrumbs-sec-title">
+						Shortcodes					
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="breadcrumbs-sec-crumbs">
+						<a href="#">Home</a>
+						<span>Shortcodes</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row section">
+		<div class="col-md-6">
+				<div class="section-title-left">
+					Accordion
+					<span class="section-subtitle">Light Version</span>
+				</div>
+				<div class="accordion-wrap light">
+					<div class="panel-group" id="accordion">
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="ion-android-arrow-dropdown"><i class="fas fa-caret-down"></i>
+					        Geat Support 24/7</a>
+					      </h4>
+					    </div>
+					    <div id="collapse1" class="panel-collapse collapse in">
+					      <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred</div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="collapsed ion-android-arrow-dropdown"><i class="fas fa-caret-down"></i>
+					        Clean Design</a>
+					      </h4>
+					    </div>
+					    <div id="collapse2" class="panel-collapse collapse">
+					      <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla</div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="collapsed ion-android-arrow-dropdown"><i class="fas fa-caret-down"></i>
+					        Fast</a>
+					      </h4>
+					    </div>
+					    <div id="collapse3" class="panel-collapse collapse">
+					      <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla</div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" class="collapsed ion-android-arrow-dropdown"><i class="fas fa-caret-down"></i>
+					        A Lot Of Shortcodes</a>
+					      </h4>
+					    </div>
+					    <div id="collapse4" class="panel-collapse collapse">
+					      <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla</div>
+					    </div>
+					  </div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">	
+				<div class="section-title-left" style="margin-top: 0">
+					Tabs
+					<span class="section-subtitle">
+					 Light Version
+					</span>
+				</div>		
+				<nav>
+ 					<div class="nav nav-tabs" id="nav-tab" role="tablist">
+    					<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true" >What We Do</a>
+    					<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Our Approach</a>
+    					<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Information</a>
+    					<a class="nav-item nav-link" id="nav-expierence" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Our Experience</a>
+  					</div>
+				</nav>
+				<div class="tab-content" id="nav-tabContent">
+  					<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" style="background-color: #ffff;color: #626878!important;">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur impedit reprehenderit, repudiandae quos debitis! Fuga, rem aspernatur sed?</div>
+  					<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" style="background-color: #ffff;color: #626878!important;">Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus deleniti ab dicta accusamus excepturi photo booth letterpress neque quibusdam aperiam unde.</div>
+  					<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" style="background-color: #ffff;color: #626878!important;">Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ducimus qui, fugiat laborum at dolores quo photo booth letterpress libero eos.</div>
+ 					<div class="tab-pane fade" id="nav-expierence" role="tabpanel" aria-labelledby="nav-contact-tab" style="background-color: #ffff;color: #626878!important;">Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem recusandae laboriosam harum dicta architecto! Consectetur labore magni minus!</div>
+			</div>
+		</div>
+	</div>
+	<div class="section-gray">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="section-title-left">
+						Accordion
+						<span class="section-subtitle">Dark Version</span>
+					</div>
+					<div class="accordion-wrap">
+						<div class="panel-group" id="accordion2">
+						  <div class="panel panel-default">
+						    <div class="panel-heading">
+						      <h4 class="panel-title">
+						        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne" class="ion-android-arrow-dropdown"><i class="fas fa-caret-down"></i>
+						        Geat Support 24/7</a>
+						      </h4>
+						    </div>
+						    <div id="collapseOne" class="panel-collapse collapse in">
+						      <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred</div>
+						    </div>
+						  </div>
+						  <div class="panel panel-default">
+						    <div class="panel-heading">
+						      <h4 class="panel-title">
+						        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo" class="collapsed ion-android-arrow-dropdown"><i class="fas fa-caret-down"></i>
+						        Clean Design</a>
+						      </h4>
+						    </div>
+						    <div id="collapseTwo" class="panel-collapse collapse">
+						      <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla</div>
+						    </div>
+						  </div>
+						  <div class="panel panel-default">
+						    <div class="panel-heading">
+						      <h4 class="panel-title">
+						        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree" class="collapsed ion-android-arrow-dropdown"><i class="fas fa-caret-down"></i>
+						        Fast</a>
+						      </h4>
+						    </div>
+						    <div id="collapseThree" class="panel-collapse collapse">
+						      <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla</div>
+						    </div>
+						  </div>
+						  <div class="panel panel-default">
+						    <div class="panel-heading">
+						      <h4 class="panel-title">
+						        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseFour" class="collapsed ion-android-arrow-dropdown"><i class="fas fa-caret-down"></i>
+						        A Lot Of Shortcodes</a>
+						      </h4>
+						    </div>
+						    <div id="collapseFour" class="panel-collapse collapse">
+						      <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla</div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">	
+				<div class="section-title-left" style="margin-top: 0">
+					Tabs
+					<span class="section-subtitle">
+					 Dark Version
+					</span>
+				</div>		
+				<nav>
+ 					<div class="nav nav-tabs" id="nav-tab" role="tablist">
+    					<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true" >What We Do</a>
+    					<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Our Approach</a>
+    					<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Information</a>
+    					<a class="nav-item nav-link" id="nav-expierence" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Our Experience</a>
+  					</div>
+				</nav>
+				<div class="tab-content" id="nav-tabContent">
+  					<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" style="background-color: #ffff;color: #626878!important;">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur impedit reprehenderit, repudiandae quos debitis! Fuga, rem aspernatur sed?</div>
+  					<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" style="background-color: #ffff;color: #626878!important;">Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus deleniti ab dicta accusamus excepturi photo booth letterpress neque quibusdam aperiam unde.</div>
+  					<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" style="background-color: #ffff;color: #626878!important;">Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ducimus qui, fugiat laborum at dolores quo photo booth letterpress libero eos.</div>
+ 					<div class="tab-pane fade" id="nav-expierence" role="tabpanel" aria-labelledby="nav-contact-tab" style="background-color: #ffff;color: #626878!important;">Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem recusandae laboriosam harum dicta architecto! Consectetur labore magni minus!</div>
+				</div>
+				</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row section">			
+			<div class="col-md-6">
+				<div class="section-title-left">
+					Map
+					<a href="https://maps.google.com/">Google Maps</a>
+				</div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d50421.901233902805!2d144.9658684807909!3d-37.828250517065825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1470833313652" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+			<div class="col-md-6">
+				<div class="section-title-left">
+					Carousel
+					<a href="https://owlcarousel2.github.io/OwlCarousel2/">Owl Carousel</a>
+				</div>
+				<div id="demo" class="carousel slide" data-ride="carousel">				 
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				 	  <a class="popup-link" href="images/p-1.jpg" title="Loft Studio">
+				      <img src="http://placehold.it/555x300"  width="100%" height="300" style="margin-top: 0px;"></a>
+				    </div>
+				    <div class="carousel-item">
+				 	  <a class="popup-link" href="images/p-2.jpg" title="Loft Studio">
+				      <img src="http://placehold.it/555x300"  width="100%" height="300" style="margin-top: 0px;" ></a>
+				    </div>
+				  </div>
+				  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+				    <span><i class="fas fa-caret-left" style="opacity: .4; padding: 0; font-size: 32px;
+				    color: #fff; top: 50%; position: absolute; left: 15px;"></i></span>
+				  </a>
+				  <a class="carousel-control-next" href="#demo" data-slide="next">
+				    <span><i class="fas fa-caret-right" style="opacity: .4; padding: 0; font-size: 32px;
+				    color: #fff; top: 50%; position: absolute; right: 15px;"></i></span>
+				  </a>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<div class="section-gray">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="section-title-left">
+						Progressbar
+						<a href="http://kottenator.github.io/jquery-circle-progress/">Circle</a>
+					</div>
+					<div class="progress-wrap">
+						<div class="progress-item">
+							<div class="progress-circle" id="circle1">
+								<img src="images/download.png">
+								<div class="circle-value">82<i>%</i></div>
+							</div>
+							<div class="circle-title">Circle One</div>
+						</div>
+						<div class="progress-item">
+							<div class="progress-circle" id="circle2">
+								<img src="images/percent.png">
+								<div class="circle-value">92<i>%</i></div>
+							</div>
+							<div class="circle-title">Circle Two</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="section-title-left">
+						Progressbar
+						<span class="section-subtitle">Linear</span>
+					</div>
+					<div class="bars-wrap">
+						<div class="bar-item">
+							<div class="bar-title">Bar One</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-info" style="width: 90%">
+									<div class="progress-bar-number ion-android-arrow-dropdown">100%</div>
+								</div>
+							</div>
+						</div>
+						<div class="bar-item">
+							<div class="bar-title">Bar Two</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-info" style="width: 75%">
+									<div class="progress-bar-number ion-android-arrow-dropdown">75%</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row section">
+			<div class="col-md-6">
+				<div class="section-title-left">
+					Buttons
+					<span class="section-subtitle">Linear</span>
+				</div>
+
+				<a href="#" class="btn btn-default btn-lg">Default</a>
+				<a href="#" class="btn btn-primary btn-lg">Primary</a>
+				<a href="#" class="btn btn-success btn-lg">Success</a>
+				<a href="#" class="btn btn-info btn-lg">Info</a>
+				<a href="#" class="btn btn-warning btn-lg">Warning</a>
+				<a href="#" class="btn btn-danger btn-lg">Danger</a>
+				<div class="marg-t-10">
+					<a href="#" class="btn btn-default">Default</a>
+					<a href="#" class="btn btn-primary">Primary</a>
+					<a href="#" class="btn btn-success">Success</a>
+					<a href="#" class="btn btn-info">Info</a>
+					<a href="#" class="btn btn-warning">Warning</a>
+					<a href="#" class="btn btn-danger">Danger</a>
+				</div> 
+				<div class="marg-t-10">
+					<a href="#" class="btn btn-default btn-sm">Default</a>
+					<a href="#" class="btn btn-primary btn-sm">Primary</a>
+					<a href="#" class="btn btn-success btn-sm">Success</a>
+					<a href="#" class="btn btn-info btn-sm">Info</a>
+					<a href="#" class="btn btn-warning btn-sm">Warning</a>
+					<a href="#" class="btn btn-danger btn-sm">Danger</a>
+				</div>
+				<div class="marg-t-10">
+					<a href="#" class="btn btn-default btn-xs">Default</a>
+					<a href="#" class="btn btn-primary btn-xs">Primary</a>
+					<a href="#" class="btn btn-success btn-xs">Success</a>
+					<a href="#" class="btn btn-info btn-xs">Info</a>
+					<a href="#" class="btn btn-warning btn-xs">Warning</a>
+					<a href="#" class="btn btn-danger btn-xs">Danger</a>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="section-title-left">
+					Icons Example
+					<a href="http://ionicons.com/">See Full List Of Ionicons</a>					
+				</div>
+				<ul class="icons-example">
+					<li class="ion-flag" data-pack="default" data-tags="favorite, mark, star"><i class="fas fa-flag"></i></li>
+					<li class="ion-star" data-pack="default" data-tags="favorite"><i class="fas fa-star"></i></li>
+					<li class="ion-heart" data-pack="default" data-tags="love"><i class="fas fa-heart"></i></li>
+					<li class="ion-heart-broken" data-pack="default" data-tags="love"><i class="fas fa-heart-broken"></i></li>
+					<li class="ion-gear-a" data-pack="default" data-tags="settings, options, cog"><i class="fas fa-cog"></i></li>
+					<li class="ion-gear-b" data-pack="default" data-tags="settings, options, cog"><i class="fas fa-cogs"></i></li>
+					<li class="ion-toggle-filled" data-pack="default" data-tags="settings, options, switch"><i class="fas fa-toggle-on"></i></li>
+					<li class="ion-toggle" data-pack="default" data-tags="settings, options, switch"><i class="fas fa-toggle-off"></i></li>
+					<li class="ion-settings" data-pack="default" data-tags="options, tools"><i class="fas fa-tools"></i></li>
+					<li class="ion-wrench" data-pack="default" data-tags="settings, options, tools"><i class="fas fa-wrench"></i></li>
+					<li class="ion-hammer" data-pack="default" data-tags="settings, options, tools"><i class="fas fa-hammer"></i></li>
+					<li class="ion-edit" data-pack="default" data-tags="change, update, write, type, pencil"><i class="fas fa-pencil-alt"></i></li>
+					<li class="ion-trash-a" data-pack="default" data-tags="delete, remove, dump"><i class="fas fa-trash-alt"></i></li>
+					<li class="ion-trash-b" data-pack="default" data-tags="delete, remove, dump"><i class="fas fa-trash"></i></li>
+					<li class="ion-document" data-pack="default" data-tags="paper, file"><i class="far fa-file"></i></li>
+					<li class="ion-document-text" data-pack="default" data-tags="paper, file"><i class="fas fa-file-alt"></i></li>
+					<li class="ion-clipboard" data-pack="default" data-tags="write"><i class="fas fa-clipboard-list"></i></li>
+					<li class="ion-scissors" data-pack="default" data-tags="cut"><i class="fas fa-cut"></i></li>
+					<li class="ion-funnel" data-pack="default" data-tags="sort"><i class="fas fa-filter"></i></li>
+					<li class="ion-bookmark" data-pack="default" data-tags="favorite, tag, save"><i class="fas fa-bookmark"></i></li>
+					<li class="ion-email" data-pack="default" data-tags="snail, mail, inbox"><i class="fas fa-envelope"></i></li>
+					<li class="ion-email-unread" data-pack="default" data-tags="snail, mail, inbox"><i class="fas fa-inbox"></i></li>
+					<li class="ion-folder" data-pack="default" data-tags="snail, mail"><i class="fas fa-folder-open"></i></li>
+					<li class="ion-filing" data-pack="default" data-tags="mail"><i class="fas fa-envelope-open-text"></i></li>
+					<li class="ion-archive" data-pack="default" data-tags="mail"><i class="fas fa-file-archive"></i></li>
+					<li class="ion-reply" data-pack="default" data-tags="mail, undo"><i class="fas fa-reply"></i></li>
+					<li class="ion-reply-all" data-pack="default" data-tags="mail"><i class="fas fa-reply-all"></i></li>
+					<li class="ion-forward" data-pack="default" data-tags="mail, redo"><i class="fas fa-share"></i></li>
+					<li class="ion-share" data-pack="default" data-tags="outbound"><i class="far fa-share-square"></i></li>
+					<li class="ion-paper-airplane" data-pack="default" data-tags="outbound, mail, letter, send"><i class="far fa-paper-plane"></i></li>
+					<li class="ion-link" data-pack="default" data-tags="chain, anchor, href, attach"><i class="fas fa-link"></i></li>
+					<li class="ion-paperclip" data-pack="default" data-tags="attach"><i class="fas fa-paperclip"></i></li>
+					<li class="ion-compose" data-pack="default" data-tags="write, compose, type"><i class="fas fa-edit"></i></li>
+					<li class="ion-briefcase" data-pack="default" data-tags="store, organize"><i class="fas fa-briefcase"></i></li>
+					<li class="ion-medkit" data-pack="default" data-tags="health"><i class="fas fa-briefcase-medical"></i></li>
+					<li class="ion-at" data-pack="default" data-tags="@"><i class="fas fa-at"></i></li>
+					<li class="ion-pound" data-pack="default" data-tags="hashtag, #"><i class="fas fa-hashtag"></i></li>
+					<li class="ion-quote" data-pack="default" data-tags="chat, quotation"><i class="fas fa-quote-left"></i></li>
+					<li class="ion-cloud" data-pack="default" data-tags="storage"><i class="fas fa-cloud"></i></li>
+					<li class="ion-upload" data-pack="default" data-tags="storage, cloud"><i class="fas fa-cloud-upload-alt"></i></li>
+					<li class="ion-more" data-pack="default" data-tags="circles"><i class="fas fa-ellipsis-h"></i></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+		<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<a href="index.html">
+						<img class="footer-logo" src="images/logo-gray.png" alt="">
+					</a>
+					<ul class="footer-contacts">
+						<li><i class="fas fa-map-marker-alt"></i> Adress: 142 Central, San Francisco</li>
+						<li><i class="fas fa-mobile-alt"></i> Phone: +38 (023) 287 - 52 - 31</li>
+						<li><i class="fas fa-envelope"></i> E-mail: support@email.com</li>
+						<li><i class="fas fa-desktop"></i> Site: themeforest.net/user/gryndii</li>
+						<li><i class="far fa-clock"></i> Open: from 8 am to 6 pm</li>
+					</ul>
+					<ul class="footer-social">
+						<li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fab fa-github"></i></a></li>
+						<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-sm-4">
+					<div class="footer-title">Recent tweets</div>
+					<ul class="footer-twitter">
+						<li class="footer-tweet ion-social-twitter-outline"><i class="fab fa-twitter"></i>
+							<a href="#">@laconic</a>
+							Lorem ipsum dolor sit amet, consectetur adipisicing.
+							<a href="#" class="tweet-link">https://twitter.com/tweet</a>
+							<div class="tweet-time">3 days ago</div>
+						</li>
+						<li class="footer-tweet ion-social-twitter-outline"><i class="fab fa-twitter"></i>
+							<a href="#">@laconic</a>
+							Lorem ipsum dolor sit amet, consectetur adipisicing.
+							<a href="#" class="tweet-link">https://twitter.com/tweet</a>
+							<div class="tweet-time">4 days ago</div>
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-4">
+					<div class="footer-flickr">
+						<div class="footer-title">Flickr Photos</div>
+						<style type="text/css"> 
+						.flickr_badge_image {margin:0px;display:inline;}
+						.flickr_badge_image img {border: 0px solid #666666 !important; padding:1px; margin:6px;}
+						#flickr_badge_wrapper {width:100%;text-align:left}
+						</style><div id="flickr_badge_wrapper"><script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=8&display=latest&size=s&layout=x&source=user&user=52617155@N08"></script></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<div>
+							Copyright © 2016 <a href="#">Laconic</a>. Created by <a href="http://themeforest.net/user/gryndii">Gryndii</a>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<ul class="footer-menu">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about-us.html">About Us</a></li>
+							<li><a href="portfolio-3.html">Portfolio</a></li>
+							<li><a href="blog-3-col.html">Blog</a></li>
+							<li><a href="https://themeforest.net/user/gryndii">Buy</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+	function search() {
+	var input = document.querySelector(".press");
+	var times = document.querySelector("#last");
+	input.style.display = "block";
+	times.style.display = "block";
+	times.style.zIndex = "2";
+}
+
+function times() {
+	var input = document.querySelector(".press");
+	var times = document.querySelector("#last");
+	input.style.display = "none";
+	times.style.display = "none";
+}
+</script>
+
+</body>
+</html>
